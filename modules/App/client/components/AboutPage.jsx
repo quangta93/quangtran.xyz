@@ -2,6 +2,7 @@
 import { Component } from 'react';
 
 import NavBar from './NavBar';
+import FooterSection from './FooterSection';
 
 export default class AboutPage extends Component {
 
@@ -11,6 +12,7 @@ export default class AboutPage extends Component {
         <NavBar />
 
         <div>{'This is the about page.'}</div>
+        <FooterSection />
       </div>
     )
   }

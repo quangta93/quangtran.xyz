@@ -2,6 +2,7 @@
 import { Component } from 'react';
 
 import NavBar from './NavBar';
+import FooterSection from './FooterSection';
 
 export default class BlogPost extends Component {
 
@@ -11,6 +12,7 @@ export default class BlogPost extends Component {
         <NavBar />
 
         <div>{'This is the blog post.'}</div>
+        <FooterSection />
       </div>
     )
   }

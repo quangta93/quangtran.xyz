@@ -2,6 +2,7 @@
 import { Component } from 'react';
 
 import NavBar from './NavBar';
+import FooterSection from './FooterSection';
 
 export default class NotFoundPage extends Component {
 
@@ -9,8 +10,9 @@ export default class NotFoundPage extends Component {
     return (
       <div>
         <NavBar />
-        
+
         {'Page not found!'}
+        <FooterSection />
       </div>
     )
   }
