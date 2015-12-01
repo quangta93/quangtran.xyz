@@ -11,7 +11,7 @@ export default class WelcomeSection extends Component {
   	    <div className="container">
     			<div className="row">
     				<div className="col-lg-8 col-lg-offset-2 centered">
-    					{/*<img src="assets/img/user.png" alt="Stanley">*/}
+    					<img src="/img/user.png" alt="Quang Tran" />
     					<h1>{AppContent.greeting}</h1>
     					<p>{AppContent.themeIntroduction}</p>
     					<p>{AppContent.subscription}</p>

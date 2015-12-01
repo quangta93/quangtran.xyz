@@ -1,13 +1,15 @@
 
 import { Component } from 'react';
 
-import style from '../css/App.import.css';
+import NavBar from './NavBar';
 
 export default class NotFoundPage extends Component {
 
   render() {
     return (
       <div>
+        <NavBar />
+        
         {'Page not found!'}
       </div>
     )

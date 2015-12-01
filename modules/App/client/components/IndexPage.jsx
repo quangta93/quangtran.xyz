@@ -1,7 +1,7 @@
 
 import { Component } from 'react';
 
-import AppHeader from './AppHeader';
+import NavBar from './NavBar';
 import WelcomeSection from './WelcomeSection';
 
 export default class IndexPage extends Component {
@@ -9,7 +9,7 @@ export default class IndexPage extends Component {
   render() {
     return (
       <div>
-        <AppHeader />
+        <NavBar />
 
         <WelcomeSection />
       </div>

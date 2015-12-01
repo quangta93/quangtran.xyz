@@ -1,15 +1,14 @@
 
 import { Component } from 'react';
 
-import AppHeader from './AppHeader';
-import style from '../css/App.import.css';
+import NavBar from './NavBar';
 
 export default class ContactPage extends Component {
 
   render() {
     return (
       <div>
-        <AppHeader />
+        <NavBar />
 
         <div>{'This is the contact page.'}</div>
       </div>
