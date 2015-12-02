@@ -17,7 +17,7 @@ export default (
     <Route path="work" component={WorkPage} />
     <Route path="about" component={AboutPage} />
     <Route path="blog" component={BlogPage} />
-    <Route path="blog/*" component={BlogPost} />
+    <Route path="blog/:id" component={BlogPost} />
     <Route path="contact" component={ContactPage} />
     <Route path="*" component={NotFoundPage} />
   </Route>

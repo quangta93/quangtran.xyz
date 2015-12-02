@@ -1,13 +1,27 @@
 
-import { Component } from 'react';
+import { Component, PropTypes } from 'react';
 
 import AppContent from '../AppContent';
 
 export default class ProjectSection extends Component {
 
+  static props = {
+    isTitleIncluded: PropTypes.boolean,
+  }
+
   render() {
     return (
       <div className="container pt">
+        {
+          this.props.isTitleIncluded ?
+          <div className="row mt">
+      			<div className="col-lg-6 col-lg-offset-3 centered">
+      				<h3>MY WORK</h3>
+      				<hr />
+      			</div>
+      		</div>
+          : ''
+        }
     		<div className="row mt centered">
     			<div className="col-lg-4">
     				<a className="zoom green" href="work01.html"><img className="img-responsive" src="/img/portfolio/port01.jpg" alt="Project 1" /></a>

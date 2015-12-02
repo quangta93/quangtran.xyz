@@ -2,6 +2,7 @@
 import { Component } from 'react';
 
 import NavBar from './NavBar';
+import ProjectSection from './ProjectSection';
 import FooterSection from './FooterSection';
 
 export default class WorkPage extends Component {
@@ -10,8 +11,7 @@ export default class WorkPage extends Component {
     return (
       <div>
         <NavBar />
-
-        <div>{'This is the work page.'}</div>
+        <ProjectSection isTitleIncluded/>
         <FooterSection />
       </div>
     )
