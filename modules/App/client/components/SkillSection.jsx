@@ -5,7 +5,7 @@ export default class SkillSection extends Component {
 
   render() {
     let progressStyle = {
-      width: "60%;",
+      width: '60%',
     };
     return (
       <div className="container pt">

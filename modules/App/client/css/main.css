@@ -212,7 +212,7 @@ bt {
     display:block;
     position:relative;
     overflow:hidden;
-    background:transparent url(../img/loader.gif) no-repeat center;
+    background:transparent url(/img/loader.gif) no-repeat center;
 }
 
 
@@ -221,7 +221,7 @@ bt {
         top:0; left:0;
         bottom:0; right:0;
         display:none;
-        background-image:url(../img/zoom.png);
+        background-image:url(/img/zoom.png);
         background-repeat:no-repeat;
         background-position:center;
     }
@@ -239,4 +239,9 @@ bt {
 .glyphicon {
 	font-size: 40px;
 	color: #1abc9c;
+}
+
+.blog-creation-time::selection {
+  color: #1abc9c;
+  background-color: #a8d1ff;
 }
