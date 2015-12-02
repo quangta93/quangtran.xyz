@@ -2,6 +2,8 @@
 import { Component } from 'react';
 
 import NavBar from './NavBar';
+import WelcomeSection from './WelcomeSection';
+import SkillSection from './SkillSection';
 import FooterSection from './FooterSection';
 
 export default class AboutPage extends Component {
@@ -10,8 +12,8 @@ export default class AboutPage extends Component {
     return (
       <div>
         <NavBar />
-
-        <div>{'This is the about page.'}</div>
+        <WelcomeSection />
+        <SkillSection />
         <FooterSection />
       </div>
     )
