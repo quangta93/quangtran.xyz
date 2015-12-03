@@ -1,7 +1,6 @@
 
 import { Component, PropTypes } from 'react';
 
-import AppContent from '../AppContent';
 
 export default class ProjectSection extends Component {
 

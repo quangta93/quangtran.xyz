@@ -1,7 +1,6 @@
 
 import { Component } from 'react';
 
-import AppContent from '../AppContent';
 
 export default class FooterSection extends Component {
 

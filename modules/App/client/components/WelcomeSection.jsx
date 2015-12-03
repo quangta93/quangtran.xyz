@@ -1,7 +1,7 @@
 
 import { Component } from 'react';
 
-import AppContent from '../AppContent';
+import {GREETING, INTRODUCTION} from 'App/client/AppContent';
 
 export default class WelcomeSection extends Component {
 
@@ -12,9 +12,8 @@ export default class WelcomeSection extends Component {
     			<div className="row">
     				<div className="col-lg-8 col-lg-offset-2 centered">
     					<img src="/img/user.png" alt="Quang Tran" />
-    					<h1>{AppContent.greeting}</h1>
-    					<p>{AppContent.themeIntroduction}</p>
-    					<p>{AppContent.subscription}</p>
+    					<h1>{GREETING}</h1>
+    					<p>{INTRODUCTION}</p>
     				</div>
     			</div>
   	    </div>
