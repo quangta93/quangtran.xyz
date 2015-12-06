@@ -26,3 +26,5 @@ export const PROJECTS = [
     updated: 'Jan 2015',
   },
 ];
+
+export const STANLEY = "This cute theme is created and freely distributed by Stanley Stinson and the <a href='http://blacktie.co/'>BlackTie</a> team. Live demo <a href='http://blacktie.co/demo/stanley/'>here</a>.";

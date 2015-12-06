@@ -1,8 +1,13 @@
-
 import { Component } from 'react';
+
+import { STANLEY } from 'App/client/AppContent';
 
 
 export default class FooterSection extends Component {
+
+  renderStanley() {
+    return {__html: STANLEY};
+  }
 
   render() {
     return (
@@ -29,7 +34,7 @@ export default class FooterSection extends Component {
 
     				<div className="col-lg-4">
     					<h4>About Stanley</h4>
-    					<p>This cute theme is created and freely distributed by Stanley Stinson and the <a href="blacktie.co">BlackTie</a> team. Live demo <a href="http://blacktie.co/demo/stanley/">here</a>.</p>
+    					<p dangerouslySetInnerHTML={this.renderStanley()}></p>
     				</div>
 
     			</div>
