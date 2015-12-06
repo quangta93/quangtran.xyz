@@ -4,6 +4,7 @@ import AppWrapper from './AppWrapper';
 
 import IndexPage from './components/IndexPage';
 import WorkPage from './components/WorkPage';
+import ProjectPage from './components/ProjectPage';
 import AboutPage from './components/AboutPage';
 import BlogPage from './components/BlogPage';
 import BlogPost from './components/BlogPost';
@@ -15,6 +16,7 @@ export default (
     <IndexRoute component={IndexPage} />
     <Route path="index" component={IndexPage} />
     <Route path="work" component={WorkPage} />
+    <Route path="work/:title" component={ProjectPage} />
     <Route path="about" component={AboutPage} />
     <Route path="blog" component={BlogPage} />
     <Route path="blog/:id" component={BlogPost} />
